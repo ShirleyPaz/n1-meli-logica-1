@@ -10,3 +10,47 @@
 
 5. Crie um programa que recebe um número inteiro e informa se este número é múltiplo de 10.
 
+
+const num = 9
+
+if (num > 10 ) {
+    console.log('O número é maior que 10');
+}
+
+---
+
+const a = 5
+const b = 4
+
+if (a > b) {
+    console.log('a é maior');
+} else {
+    console.log('b é maior')
+};
+
+---
+if (a > b) {
+    console.log('a é maior');
+} else if (a == b) {
+    console.log('a e b são iguais');
+} else {
+    console.log('b é maior')
+};
+
+----
+const num = console.alert('Digite um número');
+
+if (num % 2 == 0) {
+    console.log('o número é par');
+} else {
+    console.log('o número é impar');
+}
+
+---
+
+const num = console.alert('Digite um número');
+
+if (num % 10 == 0) {
+    console.log('O número é múltiplo de 10');
+} 
+
